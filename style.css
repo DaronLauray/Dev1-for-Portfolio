@@ -25,7 +25,7 @@ button {
 
 /*universal layout for homepage and links*/
 body {
-    width: 108%;
+    width: 115%;
     height: auto;
     background-color: rgb(255, 246, 227);
     flex-direction: column;
@@ -34,6 +34,10 @@ body {
 
 
 
+}
+#fix{
+    margin:0;
+    width:100%;
 }
 
 .header,
@@ -73,18 +77,17 @@ h1 {
 .main2{
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
 .contain{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .credits {
     flex-direction: column;
     display: flex;
-    text-style: cursive;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -103,7 +106,7 @@ img.self {
     height: auto;
     border-radius: 5px;
     float: left;
-    margin: 10px;
+    right: 10px;
     border-width: 4px;
     border-style: double;
     border-color: black;
@@ -112,6 +115,7 @@ img.self {
 
 div.about.me {
     text-align: center;
+    right: 10px;
 }
 
 .nav_bar,.nav_bar2 {
@@ -167,10 +171,11 @@ div.li a:hover {
 /*gallery layout*/
 .gallery {
     display: flex;
-    margin: 10px;
+    right: 10px;
     justify-content: center;
     align-items: center;
-    width: 100%
+    width: 100%;
+    gap: 10px;
 }
 
 .gallery.item {
