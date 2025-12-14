@@ -1,0 +1,180 @@
+/*created by Daron Lauray of True Community Uplift, LLC- please email daronlauray@gmail.com for inquiries*/
+
+/*style elements*/
+
+*{
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+}
+@media screen and (max-width: 700px) {
+  .main, .nav_bar,.gallery {   
+    flex-direction: column;
+  }
+}
+button{
+    border-radius: 2px;
+    background: white;
+    color:black;
+    
+}
+/*universal layout for homepage and links*/
+body{ 
+    width:108%;
+    height:auto;
+  background-color: rgb(255, 246, 227);
+  flex-direction:column;
+  font-family: monostop,roboto;
+    margin: 0;
+    
+    
+
+}
+
+.header,.footer, h1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+  background-color: black;
+  text-align: center;
+    width:100%;
+}
+.header{
+    padding:10px;
+}
+
+.footer{
+    postion:fixed;
+    bottom:0;
+    left: 0;
+    width:100%;
+    padding: 8px;
+}
+
+/*main homepage content*/
+.main{
+  display: flex;
+  flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+}
+.credits{
+    flex-direction: column;
+    display: flex;
+    text-style: cursive;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    
+}
+
+img.opener{
+    float:left;
+    over-flow:auto;
+    width:100%;
+}
+img.self{
+    width:200px;
+    height:auto;
+    border-radius:5px;
+    float: left;
+    margin:10px;
+    border-width: 4px;
+    border-style: double;
+    border-color: black;
+    
+}
+
+div.about.me{
+    text-align:center;
+}
+
+.nav_bar{
+    margin:0px;
+    padding: 0px;
+    background-color:rgb(255, 246, 227);
+    width:100%;
+    height: 100%;
+    overflow: auto;
+    
+}
+
+p{
+    font-weight: bold;
+    width:200px;
+}
+
+ul{
+    list-style: none;
+    width: 100%;
+    margin:0px;
+    padding: 0px;
+    
+    
+}
+a{
+    font-weight:bold;
+}
+div.li a,div.li{
+    text-decoration: none;
+    background-color: rgb(255, 246, 227);
+    color: black;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    text-wrap:wrap;
+    
+}
+div.li a{
+    padding: 8px 16px;
+}
+
+/*change background color on hover action*/
+div.li a:hover{
+    background-color:rgb(055, 246, 227);
+    border: 2px double black;
+}
+
+/*gallery layout*/
+.gallery{
+    display:flex;
+    margin:10px;
+    justify-content: center;
+    align-items:center;
+    width:100%
+}
+.gallery.item{
+    flex-direction: column;
+    width:400px;
+}
+.desc{
+    text-align:center;
+    
+}
+/*page images*/
+
+.one,.two,.three,.four,.seven,.eight,.nine,.ten{
+    width: 100%;
+    max-height: 400px;
+    border: 7px solid black;
+    border-radius: 10px;
+}
+.three{
+    border:7px inset green;
+}
+.five,.six{
+    border: 7px solid white;
+    border-radius: 10px;
+    width: 100%;
+    max-height: 400px;
+}
+
+/*TBC*/
+.TBC{
+    width: 200px;
+}
