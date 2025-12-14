@@ -61,7 +61,7 @@ h1 {
 }
 
 /*main homepage content*/
-.main2,.main {
+.main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -70,7 +70,17 @@ h1 {
     justify-content: center;
 
 }
-
+.main2{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .credits {
     flex-direction: column;
     display: flex;
